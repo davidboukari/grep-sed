@@ -5,4 +5,7 @@
 sed -r 's/\s+"s+hosts:/hosts:/g'
 ```
 
-
+## Replace in the file
+```
+sed -ie "s/red/blue/g" file.yml
+```
